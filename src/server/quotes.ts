@@ -81,8 +81,8 @@ async function fetchQuotes(category: string): Promise<Quote[]> {
 		author: quote.author,
 		text: quote.quote,
 		credit: {
-			url: "https://theysaidso.com",
-			text: "theysaidso.com",
+			url: "https://proverbia.net/frases-cortas",
+			text: "Frases cortas",
 		}
 	} as Quote));
 }
